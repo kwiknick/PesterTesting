@@ -31,9 +31,9 @@ Describe "$module Module Tests" {
                  'Get-PodcastData',
                  'Get-PodcastMedia',
                  'Get-PodcastImage',
-                 'ConvertTo-PodcastHTML',
+                 'ConvertTo-PodcastHtml',
                  'ConvertTo-PodcastXML',
-                 'Write-PodcastHTML',
+                 'Write-PodcastHtml',
                  'Write-PodcastXML'
                 )
 
