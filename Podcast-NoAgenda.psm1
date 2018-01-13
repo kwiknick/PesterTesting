@@ -2,14 +2,14 @@
 Import-Module SqlPS -DisableNameChecking
 Pop-Location
 
-. $PSScriptRoot/function-Get-PodcastData.ps1
-. $PSScriptRoot/function-Get-PodcastMedia.ps1
-. $PSScriptRoot/function-Get-PodcastImage.ps1
-. $PSScriptRoot/function-ConvertTo-PodcastHtml.ps1
-. $PSScriptRoot/function-ConvertTo-PodcastXml.ps1
-. $PSScriptRoot/function-Write-PodcastHtml.ps1
-. $PSScriptRoot/function-Write-PodcastXML.ps1
-. $PSScriptRoot/function-Get-NoAgenda.ps1
+. $PSScriptRoot\function-Get-PodcastData.ps1
+. $PSScriptRoot\function-Get-PodcastMedia.ps1
+. $PSScriptRoot\function-Get-PodcastImage.ps1
+. $PSScriptRoot\function-ConvertTo-PodcastHtml.ps1
+. $PSScriptRoot\function-ConvertTo-PodcastXml.ps1
+. $PSScriptRoot\function-Write-PodcastHtml.ps1
+. $PSScriptRoot\function-Write-PodcastXML.ps1
+. $PSScriptRoot\function-Get-NoAgenda.ps1
 
 Export-ModuleMember Get-NoAgenda
 Export-ModuleMember Get-PodcastData
